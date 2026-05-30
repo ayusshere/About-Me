@@ -1,17 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Domine:wght@400..700&display=swap");
 
 :root {
-  --text: #94a3b8;
-  --text-h: #f8fafc;
-  --bg: #080D1E;
-  --border: rgba(148, 163, 184, 0.1);
-  --code-bg: #1e293b;
-  --accent: #818cf8;
-  --accent-bg: rgba(129, 140, 248, 0.1);
-  --accent-border: rgba(129, 140, 248, 0.3);
-  --social-bg: rgba(30, 41, 59, 0.4);
+  /* Dreamy Sunset Palette */
+  --p-white: #FFFFFF;
+  --p-scampi: #6B5FA4;    /* Scampi */
+  --p-sky: #8787CE;       /* Faraway Sky */
+  --p-portage: #9995E8;   /* Portage */
+  --p-statice: #BF93D0;   /* Statice */
+  --p-warm: #FDB5A5;      /* Warm Undertone */
+  --p-sunset: #FDD2A3;    /* Sunset Cloud */
+
+  --text: var(--p-scampi);
+  --text-h: var(--p-scampi);
+  --bg: #FEFAFA; /* Very soft warm white */
+  --border: var(--p-portage);
+  --code-bg: var(--p-sunset);
+  --accent: var(--p-warm);
+  --accent-bg: rgba(253, 181, 165, 0.1);
+  --accent-border: rgba(253, 181, 165, 0.3);
+  --social-bg: var(--p-sunset);
   --shadow:
-    rgba(0, 0, 0, 0.6) 0 10px 15px -3px, rgba(0, 0, 0, 0.4) 0 4px 6px -2px;
+    rgba(107, 95, 164, 0.1) 0 10px 15px -3px, rgba(107, 95, 164, 0.05) 0 4px 6px -2px;
 
   --sans: "Domine", serif;
   --heading: "Bricolage Grotesque", sans-serif;
@@ -19,7 +28,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -32,28 +41,10 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
 body {
   margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 #root {
@@ -71,7 +62,7 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-h);
 }
 
@@ -102,12 +93,12 @@ code,
   font-family: var(--mono);
   display: inline-flex;
   border-radius: 4px;
-  color: var(--text-h);
+  color: var(--p-scampi);
 }
 
 code {
   font-size: 15px;
   line-height: 135%;
   padding: 4px 8px;
-  background: var(--code-bg);
+  background: var(--p-sand);
 }

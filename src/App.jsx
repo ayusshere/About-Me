@@ -39,7 +39,7 @@ export default function App() {
           <img src={ayushImg} alt="Ayush" className="hero-img" />
         </div>
 
-        <div className="section">
+        <div className="section section-about">
           <h2>About Me</h2>
 
           <p>
@@ -53,7 +53,7 @@ export default function App() {
           </p>
         </div>
 
-        <div className="section">
+        <div className="section section-likes">
           <h2>Things I Like</h2>
 
           <div className="tags">
@@ -65,7 +65,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="section">
+        <div className="section section-status">
           <h2>Current Status</h2>
 
           <div className="status-feed">
@@ -89,7 +89,7 @@ export default function App() {
         </div>
 
 
-        <div className="section">
+        <div className="section section-gear">
           <h2>Gear I Use</h2>
         
           <div className="gear-grid">
@@ -117,7 +117,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="section">
+        <div className="section section-facts">
           <h2>Fun Facts About Me</h2>
 
           <div className="facts-container">
@@ -153,7 +153,7 @@ export default function App() {
           </div>
         </div>
         
-        <div className="section">
+        <div className="section section-links">
           <h2>Find Me On</h2>
 
           <div className="links">
