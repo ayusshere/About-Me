@@ -92,10 +92,10 @@ h1 span {
 
 .intro {
     color: var(--p-scampi);
-    line-height: 1.6;
+    line-height: 1.7;
     max-width: 600px;
-    font-size: 1.16rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 500;
     margin: 0 auto;
     opacity: 0.9;
 }
@@ -113,12 +113,14 @@ h1 span {
 
     .intro {
         margin: 0;
+        font-size: 1.1rem;
     }
 
     h1 {
         font-size: 4rem;
     }
 }
+
 
 /* --- Section Defaults --- */
 .section {
@@ -462,7 +464,8 @@ footer {
         font-size: 1.8rem;
     }
 
-    .intro {
+    .intro,
+    .section-about p {
         font-size: 1rem;
     }
 }
