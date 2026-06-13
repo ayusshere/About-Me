@@ -15,7 +15,7 @@ export default function App() {
     "🎨 Horrifying Drawings",
     "🎧 Getting Lost in Music",
     "🌙 Anime Wallpapers",
-    "😄 Having Fun"
+    "😄 Having Fun",
   ];
 
   return (
@@ -33,7 +33,10 @@ export default function App() {
             </h1>
 
             <p className="intro">
-              Not particularly smart, friendly, or socially gifted just a curious and slightly boring guy who spends too much time coding, collecting weird English words, customizing Linux setups, and thinking about random things at 2 AM.
+              Not particularly smart, friendly, or socially gifted just a
+              curious and slightly boring guy who spends too much time coding,
+              collecting weird English words, customizing Linux setups, and
+              thinking about random things at 2 AM.
             </p>
           </div>
           <img src={ayushImg} alt="Ayush" className="hero-img" />
@@ -43,13 +46,13 @@ export default function App() {
           <h2>About Me</h2>
 
           <p>
-            My name is Ayush Namdev. I am not so friendly, smart, or overly social, but
-            I am a situational extrovert, prevaricative, submissive, sometimes
-            autophobic, and who knows, perhaps an Atychiphobic, Dystychiphobic,
-            or even a Claustrophobic guy that does some little things and
-            becomes happier as a logophile for no particular reason, perhaps
-            because countless incomprehensibilities seem to come out of nowhere
-            and keep running through my mind simultaneously.
+            My name is Ayush Namdev. I am not so friendly, smart, or overly
+            social, but I am a situational extrovert, prevaricative, submissive,
+            sometimes autophobic, and who knows, perhaps an Atychiphobic,
+            Dystychiphobic, or even a Claustrophobic guy that does some little
+            things and becomes happier as a logophile for no particular reason,
+            perhaps because countless incomprehensibilities seem to come out of
+            nowhere and keep running through my mind simultaneously.
           </p>
         </div>
 
@@ -88,10 +91,9 @@ export default function App() {
           </div>
         </div>
 
-
         <div className="section section-gear">
           <h2>Gear I Use</h2>
-        
+
           <div className="gear-grid">
             <div className="gear-card">
               <div className="gear-info">
@@ -123,36 +125,51 @@ export default function App() {
           <div className="facts-container">
             <div className="fact-card">
               <span className="fact-number">01</span>
-              <p>I can spend hours exploring obscure English words that most people will never use.</p>
+              <p>
+                I can spend hours exploring obscure English words that most
+                people will never use.
+              </p>
             </div>
-            
+
             <div className="fact-card">
               <span className="fact-number">02</span>
-              <p>I can spend hours creating horrifying drawings that look like they belong in a nightmare rather than an art gallery.</p>
+              <p>
+                I can spend hours creating horrifying drawings that look like
+                they belong in a nightmare rather than an art gallery.
+              </p>
             </div>
-            
+
             <div className="fact-card">
               <span className="fact-number">03</span>
-              <p>I genuinely enjoy customizing software more than actually using it sometimes.</p>
+              <p>
+                I genuinely enjoy customizing software more than actually using
+                it sometimes.
+              </p>
             </div>
-            
+
             <div className="fact-card">
               <span className="fact-number">04</span>
               <p>If Linux has 100 distros, I somehow want to try all 100.</p>
             </div>
-            
+
             <div className="fact-card">
               <span className="fact-number">05</span>
-              <p>I can talk about movies, coding, vocabulary, human behavior and obviously romantic things for hours.</p>
+              <p>
+                I can talk about movies, coding, vocabulary, human behavior and
+                obviously romantic things for hours.
+              </p>
             </div>
-            
+
             <div className="fact-card">
               <span className="fact-number">06</span>
-              <p>I keep searching for the perfect wallpaper even though I already have one.</p>
+              <p>
+                I keep searching for the perfect wallpaper even though I already
+                have one.
+              </p>
             </div>
           </div>
         </div>
-        
+
         <div className="section section-links">
           <h2>Find Me On</h2>
 
@@ -177,7 +194,7 @@ export default function App() {
 
             <a
               className="link-card"
-              href="https://instagram.com/ayussync"
+              href="https://instagram.com/perhaps.ayush"
               target="_blank"
               rel="noreferrer"
             >
@@ -190,7 +207,7 @@ export default function App() {
                 </svg>
                 <h3>Instagram</h3>
               </div>
-              <p>@ayussync</p>
+              <p>@perhaps.ayush</p>
             </a>
 
             <a
